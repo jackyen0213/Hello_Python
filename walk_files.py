@@ -40,8 +40,7 @@ def walk_dir(root_dir):
 
 
 def main():
-    path = '/remote/vgssr1/sp_verify1/regression/VIA/via_examples/NPI_Libraries';
-    #path = '/remote/vgssr1/sp_verify1/regression/VIA/via_examples/NPI_Libraries/HierTree/npi_hier_tree_dump_txt';
+    path = '/My_Libraries';
 
     walk_dir(path)
 
